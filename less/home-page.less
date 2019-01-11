@@ -1,3 +1,4 @@
+
 .home {
 
   .content-section {
@@ -58,4 +59,37 @@
       margin-bottom: 30px;
     }
   }
+
+  .welcome {
+    border-bottom: 2px dashed #C0C0C0;
+    
+    .text-content {
+      width: 98%;
+      padding: 0;
+    }
+  }
 }// home
+
+.headerNav {
+  border-bottom: 2px dashed #C0C0C0;
+  padding: 30px 0px 30px 0px;
+
+  .container{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
+  
+  .pageTitle { 
+      display: flex;
+      align-items: center;
+
+      h2 {
+          padding: 0px;
+      }
+  }
+}
+
+.btn{
+  .btnMixin(@eastern-blue; 25px; 7.5px);
+}

@@ -168,6 +168,17 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+nav a {
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 1.6rem;
+  color: black;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -224,4 +235,36 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .welcome {
+  border-bottom: 2px dashed #C0C0C0;
+}
+.home .welcome .text-content {
+  width: 98%;
+  padding: 0;
+}
+.headerNav {
+  border-bottom: 2px dashed #C0C0C0;
+  padding: 30px 0px 30px 0px;
+}
+.headerNav .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.headerNav .pageTitle {
+  display: flex;
+  align-items: center;
+}
+.headerNav .pageTitle h2 {
+  padding: 0px;
+}
+.btn {
+  height: 25px;
+  background: #17A2B8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7.5px;
 }
