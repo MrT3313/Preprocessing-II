@@ -268,3 +268,44 @@ nav a {
   align-items: center;
   border-radius: 7.5px;
 }
+@media (max-width: 500px) {
+  body {
+    width: 500px;
+    margin: 0px 10px 0px 10px;
+  }
+  .headerNav .container {
+    flex-direction: column;
+  }
+  .home .content-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home .content-section .text-content {
+    width: 90%;
+  }
+  .home .content-section .img-content {
+    display: flex;
+    align-items: center;
+  }
+  .home .content-section .img-content img {
+    min-width: 100%;
+  }
+  .home .inverse-content {
+    flex-direction: column-reverse;
+  }
+  .home .content-pick {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home .content-pick .destination {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  .home .content-pick .destination p {
+    display: flex;
+  }
+  .home .content-pick .destination h4 {
+    display: flex;
+  }
+}
