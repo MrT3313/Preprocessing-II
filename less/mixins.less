@@ -7,5 +7,11 @@
 }
 
 .borderBottom() {
-    border-bottom: 3px dashed grey;
+    border-bottom: 3px dashed @silver;
+}
+
+.styledButton(@radius, @height) {
+    background-color: @button-bg;
+    border-radius: @radius;
+    height: @height
 }
